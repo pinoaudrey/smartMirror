@@ -1,0 +1,52 @@
+/********* CLOCK CSS *********/
+@import url(//db.onlinewebfonts.com/c/0d4430ecda415769e1e7989ab0182344?family=Futurist+Fixed-width);
+
+/* @-webkit-keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+} */
+
+.MMM-DigClock {
+  width: 800px;
+  padding-bottom: 10px;
+  align-content: center;
+}
+
+.MMM-DigClock .date {
+  font-size: 40px;
+  line-height: 1.14;
+  letter-spacing: 5px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.MMM-DigClock .time {
+  font-size: 120px;
+  line-height: 1.14;
+  letter-spacing: 2px;
+  font-family: Futurist Fixed-width;
+  font-weight: 900;
+  color: #ffffff;
+}
+
+.MMM-DigClock .week {
+  font-size: 75px;
+  line-height: 90px;
+  letter-spacing: 3px;
+  font-weight: bold;
+  color: #ffffff;
+}
+/********* END CLOCK CSS *********/
